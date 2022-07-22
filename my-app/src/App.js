@@ -1,6 +1,6 @@
-import PEPO from './coolemoji.jpg';
+import PEPO from './Funneduck.jpg';
 import './App.css';
-import LOL from './Coolirlboy.jpg';
+import LOL from './Homer.jpg';
 import './App.css';
 
 function App() {
@@ -8,9 +8,11 @@ function App() {
     <div className="App">
       <header > 
         <img src={PEPO} className="App-logo" alt="pepo" />
-        <p> A cool website Made by a cool boy. </p>
+        <a href="https://www.boomerangtv.dk/videos/looney-tunes-cartoons-daffys-tyggegummi"> Loney toons  </a>
+
         <img src={LOL} className="App-logo" alt="LOL" />
-        <p> Don ramon haha. </p>
+        <a href="https://www.youtube.com/watch?v=FbGsmAC2NHE"> Springfield   </a>
+       
       </header>
     </div>
   );
